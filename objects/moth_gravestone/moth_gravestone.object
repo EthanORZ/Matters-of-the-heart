@@ -1,0 +1,48 @@
+{
+  "objectName" : "moth_gravestone",
+  "colonyTags" : ["death"],
+  "rarity" : "Common",
+  "description" : "You will be missed.",
+  "shortdescription" : "XYZ's Grave",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 0,
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "moth_gravestone.png",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "retainObjectParametersInItem" : true,
+
+  "scripts" : [ "/scripts/npcToyObject.lua" ],
+  "builder" : "/objects/moth_gravestone/buildgrave.lua",
+
+  "npcToy" : {
+    "influence" : [
+      "tombstone",
+      "tombstoneComplete"
+    ],
+    "defaultReactions" : {
+      "tombstone" : [
+        [1.0, "mourn"]
+      ],
+      "tombstoneComplete" : [
+        [1.0, "cry"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-2.5, 0.0],
+    "preciseStandPositionRight" : [2.5, 0.0],
+    "maxNpcs" : 5
+  }
+}

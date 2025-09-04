@@ -1,0 +1,32 @@
+{
+  "projectileName" : "moth_storkdelivered",
+  "image" : "moth_storkdelivered.png",
+  "orientationLocked" : true,
+  "flippable" : true,
+  "frameNumber" : 4,
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "periodicActions" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/npc/monsters/batong_flap4.ogg" ],
+      "time" : 0.25,
+      "repeat" : true
+    }
+  ],
+  "animationLoops" : true,
+  "power" : -1,
+  "speed" : 20,
+  "timeToLive" : 10,
+  "bounces" : 1,
+  "damagePoly" : [ [-1, 0], [0, 1], [1, 0], [0, -1] ],
+  "piercing" : true,
+  "statusEffects" : [ ],
+  "damageType" : "ignoresdef",
+  "damageKind" : "nodamage",
+  
+  "onlyHitTerrain" : true,
+  "movementSettings" : {
+    "collisionEnabled" : false
+  }
+}

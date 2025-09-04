@@ -1,0 +1,167 @@
+[
+ {
+  "op": "add",
+  "path": "/scriptConfig/personalities/-",
+  "value": [
+   1,
+   {
+    "personality": "cheerful",
+    "reactions": {}
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/scriptConfig/personalities/-",
+  "value": [
+   1,
+   {
+    "personality": "jerk",
+    "reactions": {}
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/scriptConfig/personalities/-",
+  "value": [
+   1,
+   {
+    "personality": "flirty",
+    "reactions": {}
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/scriptConfig/personalities/-",
+  "value": [
+   1,
+   {
+    "personality": "anxious",
+    "reactions": {}
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/scriptConfig/personalities/-",
+  "value": [
+   1,
+   {
+    "personality": "easilyspooked",
+    "reactions": {}
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/scriptConfig/personalities/-",
+  "value": [
+   1,
+   {
+    "personality": "clumsy",
+    "reactions": {}
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/scriptConfig/personalities/-",
+  "value": [
+   1,
+   {
+    "personality": "excited",
+    "reactions": {}
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/scriptConfig/personalities/-",
+  "value": [
+   1,
+   {
+    "personality": "intrusive",
+    "reactions": {}
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/scriptConfig/personalities/-",
+  "value": [
+   1,
+   {
+    "personality": "dumb",
+    "reactions": {}
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/scriptConfig/personalities/-",
+  "value": [
+   1,
+   {
+    "personality": "emo",
+    "reactions": {}
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/scriptConfig/personalities/-",
+  "value": [
+   1,
+   {
+    "personality": "fast",
+    "reactions": {}
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/scriptConfig/personalities/-",
+  "value": [
+   1,
+   {
+    "personality": "nocturnal",
+    "reactions": {}
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/scriptConfig/personalities/-",
+  "value": [
+   1,
+   {
+    "personality": "socialite",
+    "reactions": {}
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/scriptConfig/personalities/-",
+  "value": [
+   1,
+   {
+    "personality": "ambitious",
+    "reactions": {}
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/scriptConfig/personalities/-",
+  "value": [
+   1,
+   {
+    "personality": "normal",
+    "reactions": {}
+   }
+  ]
+ }
+]

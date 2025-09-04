@@ -1,0 +1,92 @@
+{
+  "projectileName" : "moth_molovetov",
+  "image" : "moth_molovetov.png",
+  "animationCycle" : 0.25,
+  "physics" : "grenade",
+  "frameNumber" : 4,
+  "pointLight" : false,
+  "emitters" : [ "moth_lovetrail" ],
+  "speed" : 40,
+  "damageType" : "NoDamage",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/moth_molovetovexplosion/moth_molovetovexplosion.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "moth_molovetovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.0,
+      "angleAdjust" : 35
+    },
+    {
+      "action" : "projectile",
+      "type" : "moth_molovetovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.0,
+      "angleAdjust" : -35
+    },
+    {
+      "action" : "projectile",
+      "type" : "moth_molovetovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.0,
+      "angleAdjust" : 1
+    },
+    {
+      "action" : "projectile",
+      "type" : "moth_molovetovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.0,
+      "angleAdjust" : -18
+    },
+    {
+      "action" : "projectile",
+      "type" : "moth_molovetovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.0,
+      "angleAdjust" : 18
+    },
+    {
+      "action" : "projectile",
+      "type" : "moth_molovetovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.0,
+      "angleAdjust" : 55
+    },
+    {
+      "action" : "projectile",
+      "type" : "moth_molovetovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.0,
+      "angleAdjust" : -55
+    },
+    {
+      "action" : "projectile",
+      "type" : "moth_molovetovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.0,
+      "angleAdjust" : -1
+    },
+    {
+      "action" : "projectile",
+      "type" : "moth_molovetovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.0,
+      "angleAdjust" : -65
+    },
+    {
+      "action" : "projectile",
+      "type" : "moth_molovetovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.0,
+      "angleAdjust" : 65
+    }
+  ],
+  "power" : 0.0,
+  "damageKind" : "fire"
+}
+
+

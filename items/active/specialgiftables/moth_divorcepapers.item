@@ -1,0 +1,17 @@
+{
+  "itemName" : "moth_divorcepapers",
+  "rarity" : "Rare",
+  "inventoryIcon" : "moth_divorcepapers.png",
+  "price" : 2000,
+  "maxStack" : 1,
+  
+  "shortdescription" : "",
+  "entryshortdescription" : "divorcePapersName",
+  "description" : "",
+  "entrydescription" : "divorcePapersDescription",
+  "category" : "",
+  "entrycategory" : "romanticTool",
+  "itemTags" : ["moth_present", "moth_specialinteraction"],
+  "giftScript" : "/items/active/specialgiftables/moth_divorcepapers.lua",
+  "builder" : "/scripts/mothitems.lua"
+}

@@ -1,0 +1,12 @@
+{
+  "name" : "moth_deletion",
+  "effectConfig" : {},
+  "defaultDuration" : 0,
+
+  "scripts" : [
+    "moth_deletion.lua"
+  ],
+
+  "label" : "Find the NPC you wanted to break up with!",
+  "icon" : "/interface/statuses/moth_immigrating.png"
+}

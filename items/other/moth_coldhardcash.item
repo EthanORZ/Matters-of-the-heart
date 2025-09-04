@@ -1,0 +1,15 @@
+{
+  "itemName" : "moth_coldhardcash",
+  "rarity" : "Essential",
+  "inventoryIcon" : "moth_coldhardcash.png",
+  "price" : 0,
+  "maxStack" : 1,
+  
+  "shortdescription" : "",
+  "entryshortdescription" : "coldhardcashName",
+  "description" : "",
+  "entrydescription" : "coldhardcashDescription",
+  "category" : "",
+  "entrycategory" : "quest",
+  "builder" : "/scripts/mothitems.lua"
+}

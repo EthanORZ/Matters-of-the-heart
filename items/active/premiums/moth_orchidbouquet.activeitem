@@ -1,0 +1,24 @@
+{
+  "itemName" : "moth_orchidbouquet",
+  "price" : 1,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "twoHanded" : false,
+  "inventoryIcon" : "moth_orchidbouquet.png",
+  "scripts" : ["moth_orchidbouquet.lua"],
+  "fireTime" : 1.0,
+  "fireOffset" : [1.0, 0.0],
+  
+  "shortdescription" : "",
+  "entryshortdescription" : "orchidBouquetName",
+  "description" : "",
+  "entrydescription" : "orchidBouquetDescription",
+  "category" : "",
+  "entrycategory" : "romanticTool",
+  "builder" : "/scripts/mothitems.lua",
+  
+  "itemTags" : ["moth_present","moth_debug"],
+
+  "animation" : "moth_orchidbouquet.animation",
+  "animationCustom" : {}
+}

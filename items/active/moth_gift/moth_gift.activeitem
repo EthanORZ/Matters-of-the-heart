@@ -1,0 +1,29 @@
+{
+  "itemName" : "moth_gift",
+  "price" : 49,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "twoHanded" : false,
+  "inventoryIcon" : "moth_gift.png",
+  "scripts" : ["moth_gift.lua"],
+  "fireTime" : 1.0,
+  "fireOffset" : [1.0, 0.0],
+  
+  "shortdescription" : "",
+  "entryshortdescription" : "giftMiscName",
+  "description" : "",
+  "entrydescription" : "giftDescription",
+  "category" : "",
+  "entrycategory" : "romanticTool",
+  "builder" : "/scripts/mothitems.lua",
+  
+  "itemTags" : ["moth_present","moth_debug"],
+
+  "animation" : "moth_gift.animation",
+  "animationCustom" : {},
+  
+  "item" : { 
+	"name" : "perfectlygenericitem",
+	"count" : 1
+  }
+}

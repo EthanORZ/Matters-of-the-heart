@@ -1,0 +1,17 @@
+{
+  "itemName" : "moth_venusianambrosia",
+  "rarity" : "Essential",
+  "inventoryIcon" : "moth_venusianambrosia.png",
+  "price" : 1,
+  "maxStack" : 1,
+  
+  "shortdescription" : "",
+  "entryshortdescription" : "venusianAmbrosiaName",
+  "description" : "",
+  "entrydescription" : "venusianAmbrosiaDescription",
+  "category" : "",
+  "entrycategory" : "romanticTool",
+  "itemTags" : ["moth_present", "moth_specialinteraction"],
+  "giftScript" : "/items/active/premiums/moth_venusianambrosia.lua",
+  "builder" : "/scripts/mothitems.lua"
+}

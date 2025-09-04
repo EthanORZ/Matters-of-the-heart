@@ -1,0 +1,76 @@
+[
+	[
+		{
+			"op" : "test",
+			"path" : "/lowValueQuestRewards/0/1/fill",
+			"inverse" : true
+		},
+		{
+			"op" : "add",
+			"path" : "/lowValueQuestRewards/0/1/fill",
+			"value" : []
+		}
+	],
+	[
+		{
+			"op" : "test",
+			"path" : "/mediumValueQuestRewards/0/1/fill",
+			"inverse" : true
+		},
+		{
+			"op" : "add",
+			"path" : "/mediumValueQuestRewards/0/1/fill",
+			"value" : []
+		}
+	],
+	[
+		{
+			"op" : "test",
+			"path" : "/highValueQuestRewards/0/1/fill",
+			"inverse" : true
+		},
+		{
+			"op" : "add",
+			"path" : "/highValueQuestRewards/0/1/fill",
+			"value" : []
+		}
+	],
+	[
+		{
+			"op" : "add",
+			"path" : "/lowValueQuestRewards/0/1/fill/-",
+			"value" : { "pool": "questMunie" }
+		}
+	],
+	[
+		{
+			"op" : "add",
+			"path" : "/mediumValueQuestRewards/0/1/fill/-",
+			"value" : { "pool": "questMunie" }
+		}
+	],
+	[
+		{
+			"op" : "add",
+			"path" : "/highValueQuestRewards/0/1/fill/-",
+			"value" : { "pool": "questMunie" }
+		}
+	],
+	[
+		{
+			"op": "add",
+			"path": "/questMunie",
+			"value": [[0, {
+				"fill": [{ "item": "moth_questcookie" }],
+				"pool": [
+					{ "weight": 0.2, "item": [ "moth_munie", 75 ] },
+					{ "weight": 0.4, "item": [ "moth_munie", 95 ] },
+					{ "weight": 0.3, "item": [ "moth_munie", 115 ] },
+					{ "weight": 0.1, "item": [ "moth_munie", 135 ] }
+				],
+				"poolRounds": 1,
+				"allowDuplication": false
+			}]]
+		}
+	]
+]

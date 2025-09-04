@@ -1,0 +1,13 @@
+{
+  "itemName" : "moth_unknown",
+  "rarity" : "Common",
+  "inventoryIcon" : "moth_unknown.png",
+  
+  "shortdescription" : "",
+  "entryshortdescription" : "unknownCategoryName",
+  "description" : "",
+  "entrydescription" : "unknownCategoryDescription",
+  "category" : "",
+  "entrycategory" : "notLearned",
+  "builder" : "/scripts/mothitems.lua"
+}

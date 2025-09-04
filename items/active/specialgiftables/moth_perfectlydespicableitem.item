@@ -1,0 +1,17 @@
+{
+  "itemName" : "moth_perfectlydespicableitem",
+  "rarity" : "Essential",
+  "inventoryIcon" : "moth_perfectlydespicableitem.png",
+  "price" : 1,
+  "maxStack" : 1,
+  
+  "shortdescription" : "",
+  "entryshortdescription" : "perfectlyDespicableItemName",
+  "description" : "",
+  "entrydescription" : "perfectlyDespicableItemDescription",
+  "category" : "",
+  "entrycategory" : "romanticTool",
+  "itemTags" : ["moth_present", "moth_specialinteraction"],
+  "giftScript" : "/items/active/specialgiftables/moth_perfectlydespicableitem.lua",
+  "builder" : "/scripts/mothitems.lua"
+}

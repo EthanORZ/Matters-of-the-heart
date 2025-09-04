@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/translator1Pool/0/1/fill/-",
+    "value": {
+      "item": [ "moth_coldhardcash", 1 ]
+    }
+  }
+]

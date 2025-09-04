@@ -1,0 +1,19 @@
+{
+  "itemName" : "moth_munie",
+  "currency" : "moth_munie",
+  "description" : "Some Munie, used to buy stuff related to romance.",
+  "inventoryIcon" : "/items/currency/moth_munie.png",
+  "pickupSoundsSmall" : [ "/sfx/objects/coinstack_small1.ogg", "/sfx/objects/coinstack_small2.ogg", "/sfx/objects/coinstack_small3.ogg" ],
+  "pickupSoundsMedium" : [ "/sfx/objects/coinstack_medium1.ogg", "/sfx/objects/coinstack_medium2.ogg" ],
+  "pickupSoundsLarge" : [ "/sfx/objects/coinstack_large.ogg" ],
+  "rarity" : "Uncommon",
+  "shortdescription" : "^green;Munie^reset;",
+  "smallStackLimit" : 999,
+  "mediumStackLimit" : 4999,
+  "maxStack" : 9999999,
+  "value" : 1,
+  
+  "entryshortdescription" : "munieName",
+  "entrydescription" : "munieDescription",
+  "entrycategory" : "currency"
+}

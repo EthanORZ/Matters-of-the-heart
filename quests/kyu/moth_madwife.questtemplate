@@ -1,0 +1,29 @@
+{
+  "id" : "moth_madwife",
+  "prerequisites" : [ "moth_maxnpc" ],
+  "title" : "",
+  "text" : "",
+  "completionText" : "",
+  "moneyRange" : [500, 500],
+  "ephemeral" : false,
+  "rewards" : [],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/moth_main.lua",
+  "scriptConfig" : {
+	"moth_questId" : "madwife",
+    "portraits" : {
+      "default" : "questGiver"
+    },
+    "requireTurnIn" : true,
+    "turnInEntityUid" : "moth_kyu",
+	"turnInDescription" : "",
+    "conditions" : [
+      {
+        "type" : "moth_property",
+		"description" : "quest_madwife_objective",
+        "property" : "angerSpouse"
+      }
+    ]
+  }
+}

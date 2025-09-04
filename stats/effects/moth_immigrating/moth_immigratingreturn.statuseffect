@@ -1,0 +1,12 @@
+{
+  "name" : "moth_immigratingreturn",
+  "effectConfig" : {},
+  "defaultDuration" : 0,
+
+  "scripts" : [
+    "moth_immigratingreturn.lua"
+  ],
+
+  "label" : "Setting you up...",
+  "icon" : "/interface/statuses/moth_immigrating.png"
+}

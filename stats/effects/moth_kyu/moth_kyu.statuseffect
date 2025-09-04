@@ -1,0 +1,8 @@
+{
+  "name" : "moth_kyu",
+  "defaultDuration" : 0,
+
+  "scripts" : [
+    "moth_kyu.lua"
+  ]
+}

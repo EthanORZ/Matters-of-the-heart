@@ -1,0 +1,23 @@
+{
+  "projectileName" : "moth_loveshot",
+  "image" : "moth_loveshot.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "bubble",
+  "pointLight" : false,
+  "flippable" : true,
+  "emitters" : [ "moth_lovetrail" ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/moth_heartexplosion/moth_heartexplosion.config"
+    }
+  ],
+  "statusEffects" : [ 
+    "moth_lovemaker"
+  ],
+  "power" : 0.0,
+  "speed" : 60,
+  "knockback" : 5
+}

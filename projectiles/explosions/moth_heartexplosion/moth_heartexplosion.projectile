@@ -1,0 +1,11 @@
+{
+  "projectileName" : "moth_heartexplosion",
+  "image" : "moth_heartexplosion.png",
+  "animationCycle" : 0.3,
+  "frameNumber" : 5,
+  "speed" : 0,
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "bubble"
+}

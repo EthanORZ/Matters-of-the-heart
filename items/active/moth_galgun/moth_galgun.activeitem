@@ -1,0 +1,148 @@
+{
+  "itemName" : "moth_galgun",
+  "price" : 2490,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "tooltipKind" : "base",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","assaultrifle"],
+  "level" : 1,
+  "inventoryIcon" : "moth_galgun.png",
+  
+  "shortdescription" : "",
+  "entryshortdescription" : "galgunName",
+  "description" : "",
+  "entrydescription" : "galgunDescription",
+  "category" : "",
+  "entrycategory" : "romanticTool",
+  "builder" : "/scripts/mothweapons.lua",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "moth_galgun.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/moth_galgun/moth_loveflash.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { 
+	  "parts" : {
+	    "muzzleFlash" : {
+          "properties" : {
+            "offset" : [0.25, -0.25]
+          }
+        },
+        "grenadelauncher" : {
+          "properties" : {
+            "offset" : [-1.0, 0.0],
+            "firePosition" : [1.0, 0.0],
+            "image" : ""
+          }
+        }
+      }
+	},
+    "sounds" : {
+      "fire" : [ "/sfx/gun/mech_wobbleshot_fire2.ogg" ],
+	  "altFire" : [ "/sfx/gun/omnicannon_shot2.ogg" ]
+    }
+  },
+
+  "baseOffset" : [0.75, 0.25],
+  "muzzleOffset" : [2.0, 0.375],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.25,
+    "baseDps" : 0,
+    "energyUsage" : 42.0,
+    "inaccuracy" : 0.05,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "moth_loveshot",
+    "projectileParameters" : {
+	  "piercing" : false
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbilityType" : "grenadelauncher",
+  "altAbility" : {
+    "name" : "Molovetov Launcher",
+    "scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
+    "class" : "AltFireAttack",
+    "baseDps" : 0,
+	
+	"elementalConfig" : {
+      "physical" : { "projectileType" : "moth_molovetov" },
+      "fire" : { "projectileType" : "moth_molovetov" },
+      "electric" : { "projectileType" : "moth_molovetov" },
+      "ice" : { "projectileType" : "moth_molovetov" },
+      "poison" : { "projectileType" : "moth_molovetov" }
+    },
+	
+    "projectileParameters" : {
+      "piercing" : false
+    },
+
+    // use baseDps and fireTime from primary fire
+
+    "baseDamageMultiplier" : 1.3,
+    "energyUsage" : 60,
+
+    "stances" : {
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}

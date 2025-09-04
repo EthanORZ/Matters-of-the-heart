@@ -1,0 +1,12 @@
+{
+  "name" : "moth_immigrating",
+  "effectConfig" : {},
+  "defaultDuration" : 0,
+
+  "scripts" : [
+    "moth_immigrating.lua"
+  ],
+
+  "label" : "Find the NPC you wanted to immigrate!",
+  "icon" : "/interface/statuses/moth_immigrating.png"
+}

@@ -1,0 +1,28 @@
+[
+  [
+    {
+	  "op" : "test",
+	  "path" : "/innateStatusEffects",
+	  "inverse" : true
+	},
+	{
+	  "op" : "add",
+	  "path" : "/innateStatusEffects",
+	  "value" : []
+	}
+  ],
+  [
+    {
+      "op" : "add",
+      "path" : "/innateStatusEffects/-",
+      "value" : "moth_kyu"
+    }
+  ],
+  [
+    {
+      "op" : "add",
+      "path" : "/scripts/-",
+      "value" : "/npcs/datingoverride.lua"
+    }
+  ]
+]

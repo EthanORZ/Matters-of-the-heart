@@ -1,0 +1,17 @@
+{
+  "itemName" : "moth_weddingring",
+  "rarity" : "Rare",
+  "inventoryIcon" : "moth_weddingring.png",
+  "price" : 2000,
+  "maxStack" : 1,
+  
+  "shortdescription" : "",
+  "entryshortdescription" : "weddingRingName",
+  "description" : "",
+  "entrydescription" : "weddingRingDescription",
+  "category" : "",
+  "entrycategory" : "romanticTool",
+  "itemTags" : ["moth_present", "moth_specialinteraction"],
+  "giftScript" : "/items/active/specialgiftables/moth_weddingring.lua",
+  "builder" : "/scripts/mothitems.lua"
+}

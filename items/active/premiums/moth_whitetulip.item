@@ -1,0 +1,17 @@
+{
+  "itemName" : "moth_whitetulip",
+  "rarity" : "Essential",
+  "inventoryIcon" : "moth_whitetulip.png",
+  "price" : 1,
+  "maxStack" : 1,
+  
+  "shortdescription" : "",
+  "entryshortdescription" : "whiteTulipName",
+  "description" : "",
+  "entrydescription" : "whiteTulipDescription",
+  "category" : "",
+  "entrycategory" : "romanticTool",
+  "itemTags" : ["moth_present", "moth_specialinteraction"],
+  "giftScript" : "/items/active/premiums/moth_whitetulip.lua",
+  "builder" : "/scripts/mothitems.lua"
+}

@@ -1,0 +1,28 @@
+{
+  "projectileName" : "moth_molovetovflame",
+  "physics" : "grenadenobounce",
+  "bounces" : -1,
+  "timeToLive" : 3,
+  "speed" : 15,
+  "image" : "moth_molovetovflame.png",
+  "animationCycle" : 0.8,
+  "lightColor" : [211, 94, 174],
+  "frameNumber" : 8,
+  "emitters" : [ "moth_passionfire" ],
+  "piercing" : true,
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smoke/smoke.config"
+    }
+  ],
+  "damageKind" : "NoDamage",
+  "damageKindImage" : "/interface/statuses/health.png",
+  "statusEffects" : [
+    "moth_lovemaker"
+  ],
+  "hydrophobic" : false,
+
+  "persistentAudio" : "/sfx/objects/torch.ogg"
+}

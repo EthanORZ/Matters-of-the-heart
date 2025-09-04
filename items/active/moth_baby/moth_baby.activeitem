@@ -1,0 +1,15 @@
+{
+  "itemName" : "moth_baby",
+  "rarity" : "Essential",
+  "inventoryIcon" : "/items/active/moth_baby/icons/default_m.png",
+  "price" : 0,
+  "maxStack" : 1,
+  "twoHanded" : true,
+  
+  "shortdescription" : "",
+  "description" : "",
+  "category" : "Baby",
+  "builder" : "/items/active/moth_baby/moth_babybuilder.lua",
+  "scripts" : ["/items/active/moth_baby/moth_baby.lua"],
+  "scriptDelta" : 15
+}

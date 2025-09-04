@@ -1,0 +1,31 @@
+{
+  "id" : "moth_coldhardcash",
+  "prerequisites" : [],
+  "title" : "",
+  "text" : "",
+  "completionText" : "",
+  "moneyRange" : [500, 500],
+  "ephemeral" : false,
+  "rewards" : [],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/moth_main.lua",
+  "scriptConfig" : {
+	"moth_questId" : "coldhardcash",
+    "portraits" : {
+      "default" : "questGiver"
+    },
+    "requireTurnIn" : true,
+    "turnInEntityUid" : "moth_kyu",
+	"turnInDescription" : "",
+    "conditions" : [
+      {
+        "type" : "moth_gatherItem",
+		"description" : "quest_coldhardcash_objective",
+        "itemName" : "moth_coldhardcash",
+        "count" : 1,
+        "consume" : true
+      }
+    ]
+  }
+}

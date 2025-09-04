@@ -1,0 +1,19 @@
+{
+  "itemName" : "moth_huniebee",
+  "price" : 990,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "twoHanded" : true,
+  "inventoryIcon" : "moth_huniebee.png",
+  "scripts" : [ "/items/active/moth_huniebee/moth_huniebee.lua" ],
+  "fireTime" : 2,
+  "fireOffset" : [ 1, 0 ],
+  
+  "shortdescription" : "",
+  "entryshortdescription" : "huniebeeName",
+  "description" : "",
+  "entrydescription" : "huniebeeDescription",
+  "category" : "",
+  "entrycategory" : "romanticTool",
+  "builder" : "/scripts/mothitems.lua"
+}

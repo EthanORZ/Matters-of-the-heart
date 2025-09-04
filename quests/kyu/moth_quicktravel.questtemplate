@@ -1,0 +1,29 @@
+{
+  "id" : "moth_quicktravel",
+  "prerequisites" : [ "moth_firstfriend" ],
+  "title" : "",
+  "text" : "",
+  "completionText" : "",
+  "moneyRange" : [500, 500],
+  "ephemeral" : false,
+  "rewards" : [],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/moth_main.lua",
+  "scriptConfig" : {
+	"moth_questId" : "quicktravel",
+    "portraits" : {
+      "default" : "questGiver"
+    },
+    "requireTurnIn" : true,
+    "turnInEntityUid" : "moth_kyu",
+	"turnInDescription" : "",
+    "conditions" : [
+      {
+        "type" : "moth_property",
+		"description" : "quest_quicktravel_objective",
+        "property" : "quickTravel"
+      }
+    ]
+  }
+}

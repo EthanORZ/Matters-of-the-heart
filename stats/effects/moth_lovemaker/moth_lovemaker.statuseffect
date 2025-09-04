@@ -1,0 +1,14 @@
+{
+  "name" : "moth_lovemaker",
+  "effectConfig" : {},
+  "defaultDuration" : 0,
+
+  "scripts" : [
+    "moth_lovemaker.lua"
+  ],
+
+  "animationConfig" : "moth_lovemaker.animation",
+
+  "label" : "Lovemaker",
+  "icon" : "/interface/statuses/moth_lovemaker.png"
+}

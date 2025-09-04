@@ -1,0 +1,17 @@
+{
+  "itemName" : "moth_questcookie",
+  "rarity" : "Essential",
+  "inventoryIcon" : "moth_questcookie.png",
+  "price" : 1,
+  "maxStack" : 1,
+  
+  "shortdescription" : "",
+  "entryshortdescription" : "questCookieName",
+  "description" : "",
+  "entrydescription" : "questCookieDescription",
+  "category" : "",
+  "entrycategory" : "romanticTool",
+  "itemTags" : ["moth_present", "moth_specialinteraction"],
+  "giftScript" : "/items/active/premiums/moth_questcookie.lua",
+  "builder" : "/scripts/mothitems.lua"
+}

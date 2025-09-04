@@ -1,0 +1,100 @@
+{
+  "type" : "moth_kyu",
+  "baseType" : "outpostcivilian",
+
+  "scripts" : [
+    "/npcs/bmain.lua",
+	"/npcs/datingoverride.lua",
+    "/npcs/moth_kyu.lua"
+  ],
+
+  "statusControllerSettings" : {
+    "statusProperties" : {
+      "effectDirectives" : ""
+    }
+  },
+
+  "identity" : {
+    "name" : "Kyu",
+    "gender"    : "female",
+    "hairType" : "fem6",
+    "bodyDirectives" : "",
+    "emoteDirectives" : "",
+    "hairDirectives" : "?replace=d9c189=7d3c1c?replace=a38d59=4d240b?replace=735e3a=2d1606",	
+	"personalityIdle" : "idle.4",
+	"personalityArmIdle" : "idle.5"
+  },
+
+  "scriptConfig" : {
+    "uniqueId" : "moth_kyu",
+
+    "behavior" : "wanderSimple",
+
+    "offeredQuests" : [
+		"moth_coldhardcash",
+		"moth_firstfriend",
+		"moth_quicktravel",
+		"moth_maxnpc",
+		"moth_madwife",
+		
+		"moth_muniecap",
+		"moth_badrelationship"
+	],
+    "turnInQuests" : [
+		"moth_coldhardcash",
+		"moth_firstfriend",
+		"moth_quicktravel",
+		"moth_maxnpc",
+		"moth_madwife",
+		
+		"moth_muniecap",
+		"moth_badrelationship"
+	],
+
+    "chatSounds" : {
+      "default" : {
+        "male" : [
+          "/sfx/humanoid/human_chatter_male1.ogg",
+          "/sfx/humanoid/human_chatter_male2.ogg",
+          "/sfx/humanoid/human_chatter_male3.ogg"
+        ],
+        "female" : [
+          "/sfx/humanoid/human_chatter_female1.ogg",
+          "/sfx/humanoid/human_chatter_female2.ogg",
+          "/sfx/humanoid/human_chatter_female3.ogg"
+        ]
+      }
+    },
+
+    "dialog" : {
+      "availableEntry" : {
+        "default" : {
+          "default" : [
+            "availableEntry"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "moth_lovefairyhead", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "back" : [
+              { "name" : "moth_lovefairyback", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "chest" : [
+              { "name" : "moth_lovefairychest", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "legs" : [
+              { "name" : "moth_lovefairylegs", "parameters" : { "colorIndex" : 0 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

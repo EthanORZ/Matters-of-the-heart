@@ -1,0 +1,26 @@
+{
+  "projectileName" : "moth_storkbag",
+  "image" : "moth_storkbag.png",
+  "orientationLocked" : true,
+  "flippable" : true,
+  "frameNumber" : 1,
+  "physics" : "laser",
+  "animationCycle" : 1.0,
+  "animationLoops" : false,
+  "power" : -1,
+  "speed" : 5,
+  "timeToLive" : 10,
+  "bounces" : 1,
+  "damagePoly" : [ [-1, 0], [0, 1], [1, 0], [0, -1] ],
+  "piercing" : true,
+  "statusEffects" : [ ],
+  "damageType" : "ignoresdef",
+  "damageKind" : "nodamage",
+  
+  "onlyHitTerrain" : true,
+  "movementSettings" : {
+    "collisionEnabled" : false
+  },
+
+  "scripts" : [ "moth_storkbag.lua" ]
+}

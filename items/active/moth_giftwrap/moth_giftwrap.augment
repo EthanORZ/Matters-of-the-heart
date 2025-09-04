@@ -1,0 +1,16 @@
+{
+  "itemName" : "moth_giftwrap",
+  "price" : 49,
+  "rarity" : "Common",
+  "inventoryIcon" : "moth_giftwrap.png",
+  
+  "shortdescription" : "",
+  "entryshortdescription" : "giftwrapName",
+  "description" : "",
+  "entrydescription" : "giftwrapDescription",
+  "category" : "",
+  "entrycategory" : "romanticTool",
+  "builder" : "/scripts/mothitems.lua",
+
+  "scripts" : [ "/items/active/moth_giftwrap/moth_giftwrap.lua" ]
+}

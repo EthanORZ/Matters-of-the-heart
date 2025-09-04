@@ -1,0 +1,15 @@
+{
+  "itemName" : "moth_proofofcitizenship",
+  "rarity" : "Rare",
+  "inventoryIcon" : "moth_proofofcitizenship.png",
+  "price" : 2000,
+  "maxStack" : 1,  
+  
+  "shortdescription" : "",
+  "entryshortdescription" : "proofCitizenName",
+  "description" : "",
+  "entrydescription" : "proofCitizenDescription",
+  "category" : "",
+  "entrycategory" : "romanticTool",
+  "builder" : "/scripts/mothitems.lua"
+}

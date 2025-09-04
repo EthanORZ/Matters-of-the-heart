@@ -1,0 +1,7 @@
+[
+  {
+    "op"    : "add",
+    "path"  : "/moth_munie",
+    "value" : { "representativeItem" : "moth_munie", "playerMax" : 9999999 }
+  }
+]

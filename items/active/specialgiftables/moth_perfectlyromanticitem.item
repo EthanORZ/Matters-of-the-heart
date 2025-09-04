@@ -1,0 +1,17 @@
+{
+  "itemName" : "moth_perfectlyromanticitem",
+  "rarity" : "Essential",
+  "inventoryIcon" : "moth_perfectlyromanticitem.png",
+  "price" : 1,
+  "maxStack" : 1,
+  
+  "shortdescription" : "",
+  "entryshortdescription" : "perfectlyRomanticItemName",
+  "description" : "",
+  "entrydescription" : "perfectlyRomanticItemDescription",
+  "category" : "",
+  "entrycategory" : "romanticTool",
+  "itemTags" : ["moth_present", "moth_specialinteraction"],
+  "giftScript" : "/items/active/specialgiftables/moth_perfectlyromanticitem.lua",
+  "builder" : "/scripts/mothitems.lua"
+}

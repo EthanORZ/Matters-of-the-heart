@@ -1,0 +1,17 @@
+{
+  "itemName" : "moth_greenorchid",
+  "rarity" : "Essential",
+  "inventoryIcon" : "moth_greenorchid.png",
+  "price" : 1,
+  "maxStack" : 1,
+  
+  "shortdescription" : "",
+  "entryshortdescription" : "greenOrchidName",
+  "description" : "",
+  "entrydescription" : "greenOrchidDescription",
+  "category" : "",
+  "entrycategory" : "romanticTool",
+  "itemTags" : ["moth_present", "moth_specialinteraction"],
+  "giftScript" : "/items/active/premiums/moth_greenorchid.lua",
+  "builder" : "/scripts/mothitems.lua"
+}
